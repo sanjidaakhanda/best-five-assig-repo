@@ -15,7 +15,7 @@
 <body>
    <header>
 <div class="container">
-<div class="bg-black text-center">
+<div class="bg-base-300 text-center">
 <h1 class="text-5xl text-yellow-500 font-bold ">Select Your Best Five </h1>
 <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nam, eligendi suntp </p> <span> necessitatibus aliquid atque quae ut mollitia minima recusa </span>
 <p>Lorem ipsum dolor sit amet.</p>
@@ -32,19 +32,19 @@
 <main>
     <!-- for-flex -->
 
-<div class="flex mt-10">
+<div class="flex mt-10 justify-evenly">
 
 <!-- 1st div for w -->
     <div class="w-3/4">
 <div class="grid grid-cols-3 w-3/4 container ml-5">
 <!-- card-1 -->
 <div class="card card-compact w-full bg-base-100 shadow-xl mr-">
-    <figure><img src="players/player-1.jpg" alt="Shoes" /></figure>
+    <figure><img src="players/player-4.jpg" alt="Shoes" /></figure>
     <div class="card-body">
-      <h2 class="card-title">players!</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <h2 class="card-title">David Beckham</h2>
+      <p>30 goals</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary">Buy Now</button>
+        <button  id="card1-btn" class="btn btn-primary">Select</button>
       </div>
     </div>
   </div>
@@ -54,10 +54,10 @@
 <div class="card card-compact w-full bg-base-100 shadow-xl ml-5">
     <figure><img src="players/Player-3.jpg" alt="Shoes" /></figure>
     <div class="card-body">
-      <h2 class="card-title">Shoes!</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <h2 class="card-title">Ronaldinho</h2>
+      <p>30 goals</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-primary">Select</button>
       </div>
     </div>
   </div>
@@ -68,48 +68,48 @@
 <div class="card card-compact w-full bg-base-100 shadow-xl ml-10">
     <figure><img src="players/player-4.jpg" alt="Shoes" /></figure>
     <div class="card-body">
-      <h2 class="card-title">Shoes!</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <h2 class="card-title">Dabid Beckham</h2>
+      <p>30 goals</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-primary">Select</button>
       </div>
     </div>
   </div>
 
 <!-- card-4 -->
 
-<div class="card card-compact w-full bg-base-100 shadow-xl">
-    <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+<div class="card card-compact w-full bg-base-100 shadow-xl mt-10">
+    <figure><img src="players/player-6.jpg" alt="Shoes" /></figure>
     <div class="card-body">
-      <h2 class="card-title">Shoes!</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <h2 class="card-title">Cristiano Ronaldo</h2>
+      <p>30 goals</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-primary">Select</button>
       </div>
     </div>
   </div>
 
 
 <!-- card-5 -->
-<div class="card card-compact w-full bg-base-100 shadow-xl ml-5">
-    <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+<div class="card card-compact w-full bg-base-100 shadow-xl ml-5 mt-10">
+    <figure><img src="players/Player-2.jpg" alt="Shoes" /></figure>
     <div class="card-body">
-      <h2 class="card-title">Shoes!</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <h2 class="card-title">Ronaldo</h2>
+      <p>30 goals</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-primary">Select</button>
       </div>
     </div>
   </div>
 
 <!-- card-6 -->
-<div class="card card-compact w-full bg-base-100 shadow-xl ml-10">
-    <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+<div class="card card-compact w-full bg-base-100 shadow-xl ml-10 mt-10">
+    <figure><img src="players/player-7.jpg" alt="Shoes" /></figure>
     <div class="card-body">
-      <h2 class="card-title">Shoes!</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <h2 class="card-title">Mohamad Salah</h2>
+      <p>30 goalss</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-primary">Select</button>
       </div>
     </div>
   </div>
@@ -122,9 +122,9 @@
 <div class="w-1/4">
  
         <div>  
-    <ul class="menu bg-black w-56 p-2 rounded-box">
-        <li> <a> Select</a></li>
-        <li><a>Item 1</a></li>
+    <ul class="menu bg-black w-56 p-2 ">
+        <li>   Select</li>
+        <li><a id="select1"></a></li>
         <li><a>Item 2</a></li>
       <li> <a> Item 3</a> </li>
         <li><a>Item 4</a></li>
@@ -132,15 +132,19 @@
       </ul>
 </div>
 
-<div class="mt-10">
-      <ul class="menu bg-black w-56 p-2 rounded-box">
-        <li> <a> Select</a></li>
-        <li><a>Item 1</a></li>
-        <li><a>Item 2</a></li>
-      <li> <a> Item 3</a> </li>
-        <li><a>Item 4</a></li>
-        <li><a>Item 5</a></li>
-      </ul>
+<div class="mt-10 text-center">
+      <div class="menu bg-black mr-10 p-2  w-56">
+        <div>
+        <h2>Budget</h2>
+        <p>per player<input type="" name="" id=""></p>
+        <button class="btn btn-primary mt-5">Calculate</button>
+<p>Player expences<span>$5000</span></p>
+<span>Manager</span> <span><input type="text" name="" id=""></span>
+<p>coach <span><input type="text" name="" id=""></span> </p>
+<button class="btn btn-primary mt-5"> Total Calculate</button>
+<p class="mt-5">Total Expences <span>11000</span>  </p>
+
+      </div>
 
 </div>
 
@@ -158,21 +162,19 @@
   
 
 
- 
-
-
 </main>
-
-
-
-
 
 
 </section>
 
+<!-- for footer -->
 
-
-
+<footer class="footer footer-center p-4 bg-base-300 text-base-content mt-10">
+  <div>
+    
+    <p>Copyright © 2022 - All right reserved</p>
+  </div>
+</footer>
 
 
 <script src="js/players.js"></script>
